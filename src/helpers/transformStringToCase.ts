@@ -4,11 +4,7 @@ import { getUpperCaseFirstLetter } from "helpers/getUpperCaseFirstLetter";
 interface TransformStringToCaseProps {
   str: string;
   transformTo:
-    | "camelCase"
-    | "PascalCase"
-    | "snake_case"
-    | "SNAKE_CASE"
-    | "kebab-case";
+    "camelCase" | "PascalCase" | "snake_case" | "SNAKE_CASE" | "kebab-case";
 }
 
 export const transformStringToCase = ({

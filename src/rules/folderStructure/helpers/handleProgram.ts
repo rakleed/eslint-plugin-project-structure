@@ -33,8 +33,7 @@ export const handleProgram = ({
   });
 
   const cacheFileLocation = settings["project-structure/cache-location"] as
-    | string
-    | undefined;
+    string | undefined;
   const projectRoot = getProjectRoot({
     cwd,
     projectRootConfig: config.projectRoot,

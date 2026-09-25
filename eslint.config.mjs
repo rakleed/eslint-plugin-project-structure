@@ -34,6 +34,7 @@ export default tseslint.config(
       "jestCache",
       "node_modules",
       ".yarn",
+      ".idea",
       "./parser.js",
     ],
   },
